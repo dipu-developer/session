@@ -12,6 +12,11 @@ You can also see the session time ,expire on the webpage.
 - Set Session
 - Get Session
 - Delete Session
+- SESSION_COOKIE_AGE
+- SESSION_COOKIE_NAME
+- SESSION_COOKIE_PATH
+- SESSION_COOKIE_SECURE
+- SESSION_EXPIRE_AT_BROWSER_CLOSE 
 
 
 ## Authors
