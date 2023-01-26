@@ -3,9 +3,9 @@ from django.shortcuts import render
 #create the session with the cokies
 #session is same like cookies but data are storedin the formate of name and key
 def setsession(request):
-    request.session['name'] = 'bhugdfgam'          #this create session key is name and value is bhuam
-    # request.session['surname'] = "bham"
-    # request.session.set_expiry(100)            #set the session in second and 0 second mean browserclose session close
+    request.session['name'] = 'bhuam'          #this create session key is name and value is deepak
+    request.session['surname'] = "bham"
+    request.session.set_expiry(100)            #set the session in second and 0 second mean browserclose session close
     # request.session.set_expiry(0)            #the value of get_expire_at_brower_close() become true and it expire the
                                                 #when the user close the window
     return render(request,'setsession.html')    #we dont have to send any other think it will first argument is session 
