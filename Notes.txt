@@ -1,0 +1,19 @@
+Default session timeout in Django
+
+The setting you are looking for is SESSION_COOKIE_AGE ,
+the default value is 1209600 which is two weeks, in seconds. 
+"Default: 1209600 (2 weeks, in seconds) The age of session cookies, in seconds."
+
+In setting.py 
+========================================================================================================
+
+SESSION_COOKIE_AGE = 400        #THIS IS USE TO SET THE DEFAULT TIME SESSION TIME IN SECOND 
+
+========================================================================================================
+ 
+# SESSION_COOKIE_NAME = 'sessionid'       # this is by default set by djagno
+SESSION_COOKIE_NAME = 'deepakid'           #here we modify the name deepakid the name od id nw is deepakid
+
+========================================================================================================
+
+SESSION_COOKIE_PATH = '/home'              # we are changing the session place by default is '/'
