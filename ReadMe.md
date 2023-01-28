@@ -10,6 +10,9 @@ You can also see the session time ,expire on the webpage.
 ## Session Topic    
 
 - Set Session
+- request.session['name']
+- request.session('name', default= 'Guest')
+-request.session.modefied = True
 - Get Session
 - Delete Session
 - SESSION_COOKIE_AGE

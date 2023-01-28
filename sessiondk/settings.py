@@ -122,6 +122,7 @@ SESSION_COOKIE_AGE = 400        #THIS IS USE TO SET THE DEFAULT TIME SESSION TIM
 SESSION_COOKIE_NAME = 'deepakid'           #here we modify the name deepakid the name od id nw is deepakid
 SESSION_COOKIE_PATH = '/'              # we are changing the session place by default is '/'
 SESSION_COOKIE_SECURE = True            #BY DEFAULT ITS true and we have ti always  its true HttpOnly
+# SESSION_EXPIRE_AT_BROWSER_CLOSE = False     #by default it is false if its true then close browser sessin end  
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field

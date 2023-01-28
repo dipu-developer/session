@@ -16,6 +16,11 @@ def getsession(request):
     name = request.session.get('name',default='Guest')  #if the user not present it will return the Guest
     # surname = request.session.get('surname',default='Guest surname')  #if the user not present it will return the Guest
 
+    request.session.modified= True              #when we want to use to cheak the user is active mode or idel mode
+                                                # when we need to expire the session when the given time of the user
+                                                #is doing or not if doing nothink then session will expire otherwise 
+                                                #session will increase
+
     #also we can print this value in home page without passing the any argument
     print(request.session.get_session_cookie_age())             #forfatching the session age in second
     print(request.session.get_expiry_age())
